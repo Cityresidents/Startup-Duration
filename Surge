@@ -10,8 +10,8 @@ let startTime = timeTransform(dateNow,dateTime)
 if ($trigger == "button") await httpAPI("/v1/profiles/reload");
 
   $done({
-      title:"Surge Pro",
-      content:`启动时长: ${startTime}`,
+      title:"𝗦𝘂𝗿𝗴𝗲 𝗣𝗿𝗼 (𝗦𝘁𝗮𝗿𝘁𝘂𝗽 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻)",
+      content:`𝗦𝘁𝗮𝗿𝘁𝘂𝗽 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 ➠ ${startTime}`,
 		icon: params.icon,
 		"icon-color":params.color
     });
